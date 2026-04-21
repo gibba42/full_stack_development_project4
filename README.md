@@ -23,3 +23,7 @@ As a programme manager, I want to view a list of projects so that I can see all 
 As a programme manager, I want to delete projects so that closed or cancelled projects can be removed. 
 
 As a team member, I want to see projects that I am assigned to so that my responsibilities are clear. 
+
+| ID     | User Story | MoSCoW |
+|--------|------------|--------|
+| US1.1  | As a project manager, I want to edit project details so that project information stays accurate. | Must |
