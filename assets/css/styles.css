@@ -20,6 +20,7 @@ body {
     background: var(--primary);
     color:white;
     padding: 1rem 0;
+    padding-left: 10px;
 }
 
 .nav {
@@ -32,4 +33,19 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
+}
+
+/* Cards */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
